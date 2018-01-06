@@ -85,72 +85,7 @@
             android:text="@string/freeThrow"
 
             />
-
-        <!--BOTH B TEAM LAYOUT-->
-
-        <LinearLayout
-            android:id="@+id/teamB_layout"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-            <!-- TWO TEXTS FOR TEAM B -->
-
-            <TextView
-                android:id="@+id/txtTeamB"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:fontFamily="sans-serif-light"
-                android:text="@string/team_B"
-                android:textSize="@dimen/txt"
-                android:textStyle="bold"
-
-
-                />
-
-            <TextView
-                android:id="@+id/scoreTeamB"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:fontFamily="sans-serif-light"
-                android:text="@string/scoreB"
-                android:textColor="@color/black"
-                android:textSize="@dimen/num"
-                android:textStyle="bold"
-
-                />
-
-            <!--BUTTONS FOR TEAM B-->
-            <Button
-                android:id="@+id/point3B"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/point3"
-
-                />
-
-            <Button
-                android:id="@+id/point2B"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/point2"
-
-                />
-
-            <Button
-                android:id="@+id/freeThrowB"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/freeThrow"
-
-                />
-
-
-        </LinearLayout>
-
-
+        <!-- END OF TEAM A LAYOUT -->
     </LinearLayout>
 
 
