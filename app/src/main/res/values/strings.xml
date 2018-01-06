@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">CourtCounter</string>
+    <string name="app_name">Court Counter</string> <!-- The title of the app int the bar -->
+
+
 </resources>

@@ -1,12 +1,13 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light"> <!-- this makes the text in the bar black -->
+        <!-- The color of the bar -->
         <item name="colorPrimary">#FF9100</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <!-- The color of the buttons in API 21 and more -->
         <item name="colorButtonNormal">#FF9100</item>
-        <item name="colorAccent">@color/colorAccent</item>
+
+
     </style>
 
 </resources>
