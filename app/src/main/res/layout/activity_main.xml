@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     tools:context="com.example.android.courtcounter.MainActivity">
 
-    <!--BOTH TEAMS LAYOUT-->
+
     <!-- this layout includes two layouts with the both teams -->
     <!-- layouth witdh has to be set to match parent for gravity setup -->
 
@@ -26,11 +26,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/firstV"
+
             android:fontFamily="sans-serif-light"
             android:text="@string/team_A"
             android:textSize="@dimen/txt"
             android:textStyle="bold"
-
 
 
             />
@@ -40,6 +41,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/secondV"
+
             android:fontFamily="sans-serif-light"
             android:text="@string/scoreA"
             android:textColor="@color/black"
@@ -54,6 +57,9 @@
             android:id="@+id/point3A"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/firstH"
+            android:layout_marginTop="@dimen/secondV"
+
             android:text="@string/point3"
 
             />
@@ -62,29 +68,89 @@
             android:id="@+id/point2A"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/firstH"
+            android:layout_marginVertical="@dimen/thirdV"
+
             android:text="@string/point2"
 
             />
 
         <Button
-            android:id="@+id/freeThrow"
+            android:id="@+id/freeThrowA"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/firstH"
+            android:layout_marginTop="@dimen/thirdV"
+
             android:text="@string/freeThrow"
 
             />
 
-        <!-- here I will add a seocnd team layout
+        <!--BOTH B TEAM LAYOUT-->
 
-            <LinearLayout
+        <LinearLayout
             android:id="@+id/teamB_layout"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            ></LinearLayout>
+            android:orientation="vertical">
+
+            <!-- TWO TEXTS FOR TEAM B -->
+
+            <TextView
+                android:id="@+id/txtTeamB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/team_B"
+                android:textSize="@dimen/txt"
+                android:textStyle="bold"
 
 
-            -->
+                />
+
+            <TextView
+                android:id="@+id/scoreTeamB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/scoreB"
+                android:textColor="@color/black"
+                android:textSize="@dimen/num"
+                android:textStyle="bold"
+
+                />
+
+            <!--BUTTONS FOR TEAM B-->
+            <Button
+                android:id="@+id/point3B"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/point3"
+
+                />
+
+            <Button
+                android:id="@+id/point2B"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/point2"
+
+                />
+
+            <Button
+                android:id="@+id/freeThrowB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/freeThrow"
+
+                />
+
+
+        </LinearLayout>
+
+
     </LinearLayout>
 
 
