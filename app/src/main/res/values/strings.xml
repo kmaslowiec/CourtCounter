@@ -1,5 +1,18 @@
 <resources>
     <string name="app_name">Court Counter</string> <!-- The title of the app int the bar -->
 
+    <!-- TEAM A -->
+    <string name="team_A">Team A</string>
+    <string name="scoreA">0</string>
+
+    <!-- TEAM B -->
+    <string name="team_B">Team B</string>
+    <string name="scoreB">0</string>
+
+    <!-- GENERAL -->
+
+    <string name="point3">+3 points</string>
+    <string name="point2">+2 points</string>
+    <string name="freeThrow">free throw</string>
 
 </resources>

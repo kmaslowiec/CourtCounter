@@ -5,22 +5,68 @@
     android:layout_height="match_parent"
     tools:context="com.example.android.courtcounter.MainActivity">
 
+    <!--BOTH TEAMS LAYOUT-->
     <!-- this layout includes two layouts with the both teams -->
+    <!-- layouth witdh has to be set to match parent for gravity setup -->
 
     <LinearLayout
         android:id="@+id/teamA_layout"
-        android:layout_width="wrap_content"
+
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+
+
+        >
+
+        <!-- TWO TEXTS FOR TEAM A -->
 
         <TextView
             android:id="@+id/txtTeamA"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Team A"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/team_A"
+
+
 
             />
 
+        <TextView
+            android:id="@+id/scoreTeamA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/scoreA"
+            android:textColor="@color/black"
+
+            />
+
+        <!--BUTTONS FOR TEAM A-->
+
+        <Button
+            android:id="@+id/point3A"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/point3"
+
+            />
+
+        <Button
+            android:id="@+id/point2A"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/point2"
+
+            />
+
+        <Button
+            android:id="@+id/freeThrow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/freeThrow"
+
+            />
 
         <!-- here I will add a seocnd team layout
 
