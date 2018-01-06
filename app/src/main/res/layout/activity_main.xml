@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.courtcounter.MainActivity">
+
+    <!-- this layout includes two layouts with the both teams -->
+
+    <LinearLayout
+        android:id="@+id/teamA_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <!-- here I will add a seocnd team layout
+
+            <LinearLayout
+            android:id="@+id/teamB_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            ></LinearLayout>
+
+
+            -->
+    </LinearLayout>
+
+
+</RelativeLayout>
