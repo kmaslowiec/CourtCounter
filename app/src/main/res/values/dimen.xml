@@ -1,5 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <dimen name="txt">14sp</dimen>
+    <dimen name="num">56sp</dimen>
+
+    <!-- VERTICAL DIMEN FROM THE TOP -->
+
+    <!-- around team name -->
+    <dimen name="firstV">16dp</dimen>
+    <!-- below score num-->
+    <dimen name="secondV">24dp</dimen>
+    <!-- between two buttons-->
+    <dimen name="thirdV">8dp</dimen>
+    <!-- below reset button-->
+    <dimen name="fourthV">32dp</dimen>
+
+    <!-- HORIZONTAL DIMEN FROM THE TOP -->
+
+    <!-- left and right of the buttons -->
+    <dimen name="firstH">24dp</dimen>
+
 
 </resources>

@@ -26,7 +26,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
+            android:fontFamily="sans-serif-light"
             android:text="@string/team_A"
+            android:textSize="@dimen/txt"
+            android:textStyle="bold"
 
 
 
@@ -37,8 +40,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
+            android:fontFamily="sans-serif-light"
             android:text="@string/scoreA"
             android:textColor="@color/black"
+            android:textSize="@dimen/num"
+            android:textStyle="bold"
 
             />
 

@@ -15,4 +15,6 @@
     <string name="point2">+2 points</string>
     <string name="freeThrow">free throw</string>
 
+    <string name="reset">reset</string>
+
 </resources>
