@@ -1,92 +1,99 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.android.courtcounter.MainActivity">
 
-
-    <!-- this layout includes two layouts with the both teams -->
-    <!-- layouth witdh has to be set to match parent for gravity setup -->
-
+    <!-- BOTH TEAM LAYOUT -->
     <LinearLayout
-        android:id="@+id/teamA_layout"
-
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
+        android:orientation="horizontal">
 
+        <!-- INNER TEAM A LAYOUT-->
+        <!-- this layout includes two layouts with the both teams -->
+        <!-- layouth witdh has to be set to match parent for gravity setup -->
 
-        >
+        <LinearLayout
+            android:id="@+id/teamA_layout"
 
-        <!-- TWO TEXTS FOR TEAM A -->
-
-        <TextView
-            android:id="@+id/txtTeamA"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_margin="@dimen/firstV"
-
-            android:fontFamily="sans-serif-light"
-            android:text="@string/team_A"
-            android:textSize="@dimen/txt"
-            android:textStyle="bold"
-
-
-            />
-
-        <TextView
-            android:id="@+id/scoreTeamA"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginBottom="@dimen/secondV"
-
-            android:fontFamily="sans-serif-light"
-            android:text="@string/scoreA"
-            android:textColor="@color/black"
-            android:textSize="@dimen/num"
-            android:textStyle="bold"
-
-            />
-
-        <!--BUTTONS FOR TEAM A-->
-
-        <Button
-            android:id="@+id/point3A"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginHorizontal="@dimen/firstH"
-            android:layout_marginTop="@dimen/secondV"
+            android:orientation="vertical"
 
-            android:text="@string/point3"
 
-            />
+            >
 
-        <Button
-            android:id="@+id/point2A"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginHorizontal="@dimen/firstH"
-            android:layout_marginVertical="@dimen/thirdV"
+            <!-- TWO TEXTS FOR TEAM A -->
 
-            android:text="@string/point2"
+            <TextView
+                android:id="@+id/txtTeamA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="@dimen/firstV"
 
-            />
+                android:fontFamily="sans-serif-light"
+                android:text="@string/team_A"
+                android:textSize="@dimen/txt"
+                android:textStyle="bold"
 
-        <Button
-            android:id="@+id/freeThrowA"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginHorizontal="@dimen/firstH"
-            android:layout_marginTop="@dimen/thirdV"
 
-            android:text="@string/freeThrow"
+                />
 
-            />
-        <!-- END OF TEAM A LAYOUT -->
+            <TextView
+                android:id="@+id/scoreTeamA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="@dimen/secondV"
+
+                android:fontFamily="sans-serif-light"
+                android:text="@string/scoreA"
+                android:textColor="@color/black"
+                android:textSize="@dimen/num"
+                android:textStyle="bold"
+
+                />
+
+            <!--BUTTONS FOR TEAM A-->
+
+            <Button
+                android:id="@+id/point3A"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/firstH"
+                android:layout_marginTop="@dimen/secondV"
+
+                android:text="@string/point3"
+
+                />
+
+            <Button
+                android:id="@+id/point2A"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/firstH"
+                android:layout_marginVertical="@dimen/thirdV"
+
+                android:text="@string/point2"
+
+                />
+
+            <Button
+                android:id="@+id/freeThrowA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/firstH"
+                android:layout_marginTop="@dimen/thirdV"
+
+                android:text="@string/freeThrow"
+
+                />
+            <!-- END OF TEAM A LAYOUT -->
+        </LinearLayout>
+        <!-- END OF BOTH TEAM LAYOUT -->
     </LinearLayout>
-
-
 </RelativeLayout>
