@@ -68,7 +68,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="@dimen/firstH"
                 android:layout_marginTop="@dimen/secondV"
-                android:onClick="inc3points"
+                android:onClick="incA3points"
 
                 android:text="@string/point3"
 
@@ -80,7 +80,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="@dimen/firstH"
                 android:layout_marginVertical="@dimen/thirdV"
-                android:onClick="inc2points"
+                android:onClick="incA2points"
 
                 android:text="@string/point2"
 
@@ -92,7 +92,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="@dimen/firstH"
                 android:layout_marginTop="@dimen/thirdV"
-                android:onClick="incFreeThrow"
+                android:onClick="incAFreeThrow"
 
                 android:text="@string/freeThrow"
 
@@ -158,6 +158,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="@dimen/firstH"
                 android:layout_marginTop="@dimen/secondV"
+                android:onClick="incB3points"
 
                 android:text="@string/point3"
 
@@ -169,6 +170,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="@dimen/firstH"
                 android:layout_marginVertical="@dimen/thirdV"
+                android:onClick="incB2points"
 
                 android:text="@string/point2"
 
@@ -180,6 +182,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="@dimen/firstH"
                 android:layout_marginTop="@dimen/thirdV"
+                android:onClick="incBFreeThrow"
 
                 android:text="@string/freeThrow"
 
