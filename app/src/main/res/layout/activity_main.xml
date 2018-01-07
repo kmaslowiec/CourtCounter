@@ -21,6 +21,7 @@
 
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:orientation="vertical"
 
 
@@ -94,6 +95,90 @@
                 />
             <!-- END OF TEAM A LAYOUT -->
         </LinearLayout>
+
+        <!-- INNER TEAM B LAYOUT-->
+
+
+        <LinearLayout
+            android:id="@+id/teamB_layout"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+
+
+            >
+
+            <!-- TWO TEXTS FOR TEAM B -->
+
+            <TextView
+                android:id="@+id/txtTeamB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="@dimen/firstV"
+
+                android:fontFamily="sans-serif-light"
+                android:text="@string/team_A"
+                android:textSize="@dimen/txt"
+                android:textStyle="bold"
+
+
+                />
+
+            <TextView
+                android:id="@+id/scoreTeamB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="@dimen/secondV"
+
+                android:fontFamily="sans-serif-light"
+                android:text="@string/scoreA"
+                android:textColor="@color/black"
+                android:textSize="@dimen/num"
+                android:textStyle="bold"
+
+                />
+
+            <!--BUTTONS FOR TEAM B-->
+
+            <Button
+                android:id="@+id/point3B"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/firstH"
+                android:layout_marginTop="@dimen/secondV"
+
+                android:text="@string/point3"
+
+                />
+
+            <Button
+                android:id="@+id/point2B"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/firstH"
+                android:layout_marginVertical="@dimen/thirdV"
+
+                android:text="@string/point2"
+
+                />
+
+            <Button
+                android:id="@+id/freeThrowB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/firstH"
+                android:layout_marginTop="@dimen/thirdV"
+
+                android:text="@string/freeThrow"
+
+                />
+            <!-- END OF TEAM B LAYOUT -->
+        </LinearLayout>
+
         <!-- END OF BOTH TEAM LAYOUT -->
     </LinearLayout>
 </RelativeLayout>
