@@ -90,4 +90,13 @@ public class MainActivity extends AppCompatActivity {
 
     // END OF TEAM A LOGIC
 
+    // RESET BUTTON LOGIC
+
+    public void reset(View v) {
+        scoreA = 0;
+        scoreB = 0;
+        displayForTeamA(scoreA);
+        displayForTeamB(scoreB);
+    }
+
 }
